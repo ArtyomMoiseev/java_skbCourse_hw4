@@ -8,7 +8,7 @@ spring:
       on-profile: dev
 name: skbCourse-dev
 my:
-  studentName: production
+  studentName: dev
   color: red
   courseThemes:
   - Sample theme 1
@@ -22,7 +22,7 @@ spring:
       on-profile: test
 name: skbCourse-test
 my:
-  studentName: production
+  studentName: test
   color: blue
   courseThemes:
   - Test theme 1
@@ -36,7 +36,7 @@ spring:
       on-profile: prod
 name: skbCourse-prod
 my:
-  studentName: production
+  studentName: prod
   courseThemes:
     - git
     - Spring boot hello
