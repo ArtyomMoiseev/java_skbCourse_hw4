@@ -1,0 +1,40 @@
+spring:
+  config:
+    activate:
+      on-profile: dev
+name: skbCourse-dev
+my:
+  studentName: production
+  color: red
+  courseThemes:
+  - Sample theme 1
+  - Sample theme 2
+  - Sample theme 3
+  home: ${JAVA_HOME:default}
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+name: skbCourse-test
+my:
+  studentName: production
+  color: blue
+  courseThemes:
+  - Test theme 1
+  - Test theme 2
+  - Test theme 3
+  home: ${JAVA_HOME:default}
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+name: skbCourse-prod
+my:
+  studentName: production
+  courseThemes:
+    - git
+    - Spring boot hello
+    - DI
+  home: ${JAVA_HOME:default}

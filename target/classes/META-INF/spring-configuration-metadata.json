@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "my",
+      "type": "com.example.skb_course_4.MyConfiguration",
+      "sourceType": "com.example.skb_course_4.MyConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "config",
+      "type": "java.lang.String",
+      "description": "Description for config."
+    },
+    {
+      "name": "my.color",
+      "type": "java.lang.String",
+      "description": "Description for my.color."
+    },
+    {
+      "name": "my.course-themes",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.example.skb_course_4.MyConfiguration"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,14 @@
+name: skbCourseApp
+spring:
+  config:
+    activate:
+      on-profile: test
+my:
+  color:blue
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+my:
+  color:red
